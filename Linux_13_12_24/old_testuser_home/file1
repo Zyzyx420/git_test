@@ -1,0 +1,4 @@
+testuser:x:1001:1001:dummy,01,01234,012345:/home/testuser:/bin/bash
+testuser2:x:1002:1002:dummy2,1,123,01234:/home/testuser2:/bin/bash
+./verzeichnis3/file2
+./verz1/file2

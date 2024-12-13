@@ -1,0 +1,3 @@
+fabian:x:1000:1000:Fabian,,,:/home/fabian:/bin/bash
+testuser:x:1001:1001:dummy,01,01234,012345:/home/testuser:/bin/bash
+testuser2:x:1002:1002:dummy2,1,123,01234:/home/testuser2:/bin/bash
