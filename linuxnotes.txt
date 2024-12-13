@@ -1,0 +1,29 @@
+1	su superuser	=	wechsel zum root
+2	whoami		=	derzeitigen benutzert anzeigen
+3	pwd		=	aktuelles verzeichnis anzeigen
+4.1	ls		=	listet alle auf, was nicht unsichtbar
+4.2	ls -a		=	listet alles auf
+4.3	ls - al		=	berechtigungen der datei anzeigen
+5	cat 'dateiname'	=	dateiinhalt anzeigen
+6.1	setxkbmap -query=	tastatur layout anzeigen
+6.2	setxkbmap de 	=	tastatur auf deutsch stellen
+7	mkdir		=	ordner anlegen
+8.1	cd 	  	=	change directory
+8.2	cd ~ 		=	ins home verzeichnis
+8.3	cd / 		=	auf root eben wechseln
+8.4	cd root 	=	benötigt admin recht4e (als su)
+8.5	cd bin 		=	verzeichnis umfass ausführbare dateien
+9	touch 		=	datei anlegen
+10	nano 		=	datei im nano editor öffnen
+11	chmod 		=	z.b. 744 (rwxr-r-r) dateiname (rechte ändern)
+12	echo $PATH	=	listet umgebungsvariablen auf
+13	groups 		=	 
+14			=	bash steht für bourne again shell
+15.1	adduser 	= 	neuen user erstellen (als root)
+15.2 	useradd		=	um ein homeverzeichnis zu erstellen muss 
+				eine flag gesetzt werden
+16.1	ln name1 name2		 =	 hardlink (Quasikopie - INhalt existiert ein weitereds Mal mit neuer Adresse)
+16.2	 ln -s name1 name2		=	softlink (nur verweis zur originaladresse) Verlinkung -> referenzielle integrität
+17.1	echo " " >	=	inhalt ersetzen
+17.2 	echo " " >>	=	inhalt anfügen
+
